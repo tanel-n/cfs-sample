@@ -1,0 +1,3 @@
+[submodule "src/cFS"]
+	path = src/cFS
+	url = https://github.com/nasa/cFS.git
