@@ -1,6 +1,6 @@
 # cFS Sample — Quick Start
 
-Quick start for cFS.
+Quick start for cFS. For cFS v7.0.0.
 
 Prerequisites
 - git, cmake, make, a C compiler (gcc/clang)
