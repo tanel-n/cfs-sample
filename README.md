@@ -12,6 +12,7 @@ Update submodules:
 
 Copy sample makefile
 
+    cd src/cFS
     cp cfe/cmake/Makefile.sample Makefile          
     cp -r cfe/cmake/sample_defs sample_defs
 
