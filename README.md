@@ -10,10 +10,14 @@ Update submodules:
 
     git submodule update --init --recursive
 
-Copy sample makefile
+Copy sample makefile and create a symbolink for the example app
 
     cd src/cFS
-    cp cfe/cmake/Makefile.sample Makefile          
+    cp cfe/cmake/Makefile.sample Makefile  
+    cd apps
+    ln -s ../../example_app example_app
+    cd ..
+    ls -s ../../sample_defs_crypto sample_defs  
     cp -r cfe/cmake/sample_defs sample_defs
 
 Build:
