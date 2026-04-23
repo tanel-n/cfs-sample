@@ -32,6 +32,7 @@
 #include "example_app_tbl.h"
 #include "example_app_utils.h"
 #include "example_app_msg.h"
+#include "sample_lib.h"
 
 /* The sample_lib module provides the SAMPLE_Function() prototype */
 /* #include "sample_lib.h" */
